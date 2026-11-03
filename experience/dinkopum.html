@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Development internship at Dinas Koperasi dan Usaha Mikro Kabupaten Sidoarjo.">
+
+    <title>Web Development Intern</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="detail.css">
+
+    <style>
+        .skill-bars {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 28px 36px;
+            margin-top: 28px;
+        }
+
+        .skill-item {
+            width: 100%;
+            min-width: 0;
+        }
+
+        .skill-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+            color: #dce5f0;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .skill-percentage {
+            color: #e7c477;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        .skill-track {
+            width: 100%;
+            height: 8px;
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.09);
+            border-radius: 20px;
+        }
+
+        .skill-progress {
+            height: 100%;
+            background: linear-gradient(90deg, #b89550, #f0d28b);
+            border-radius: 20px;
+            transition: width 0.8s ease;
+        }
+
+        .doc-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 18px;
+        }
+
+        .doc-placeholder {
+            min-width: 0;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        .doc-placeholder img {
+            display: block;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+            margin-top: 16px;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 600px) {
+            .skill-bars,
+            .doc-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .skill-bars {
+                gap: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body class="theme-blue">
+    <main class="detail-shell">
+
+        <a class="back-link" href="../index.html#experience">
+            ← Back to Experience
+        </a>
+
+        <header class="detail-hero">
+            <div class="eyebrow">Internship · 2024</div>
+
+            <div class="hero-layout">
+                <div>
+                    <p class="role-label">POSITION</p>
+                    <h1>Web Development Intern</h1>
+                    <h2>Dinas Koperasi dan Usaha Mikro Kabupaten Sidoarjo</h2>
+                </div>
+
+                <div class="year-stamp">2024</div>
+            </div>
+
+            <p class="summary">
+                Developed a cooperative website and supported data processing and documentation to improve the presentation of cooperative financial information.
+            </p>
+
+            <a class="detail-action" href="#documentation">
+                View Documentation <span>↓</span>
+            </a>
+        </header>
+
+        <section class="detail-panel">
+            <p class="eyebrow">OVERVIEW</p>
+            <h2>Responsibilities &amp; Contributions</h2>
+
+            <p>
+                Analyzed and documented operational issues, developed a website to support the presentation of cooperative financial information, processed financial data using Microsoft Excel, and prepared administrative documents related to operational activities.
+            </p>
+
+            <div class="info-grid">
+                <div class="info-card">
+                    <span class="label">Position</span>
+                    <strong>Web Development Intern</strong>
+                </div>
+
+                <div class="info-card">
+                    <span class="label">Period</span>
+                    <strong>February – August 2024</strong>
+                </div>
+
+                <div class="info-card">
+                    <span class="label">Experience Type</span>
+                    <strong>Internship</strong>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills & Activities -->
+        <section class="detail-panel">
+            <p class="eyebrow">WHAT I WORKED ON</p>
+            <h2>Skills &amp; Activities</h2>
+
+            <div class="skill-bars">
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Website Development</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>PHP</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Bootstrap &amp; CSS</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>MySQL Database Management</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Microsoft Excel Data Processing</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Technical Documentation</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-track">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Documentation -->
+        <section class="detail-panel documentation" id="documentation">
+            <p class="eyebrow">PROOF OF EXPERIENCE</p>
+            <h2>Documentation</h2>
+
+            <div class="doc-grid">
+                
+                <div class="doc-placeholder">
+                    <span class="doc-number">01</span>
+                    <strong>Cooperative Website Interface</strong>
+                    <img src="../assets/cooperative-finance-1.png" alt="Cooperative website interface documentation" style="display: block; width: 100%; max-width: 100%; height: auto; object-fit: contain; margin-top: 16px; border-radius: 8px;">
+                </div>
+                <div class="doc-placeholder">
+                    <span class="doc-number">02</span>
+                    <strong>Certificate</strong>
+                    <img src="../assets/dinkopum2.jpeg" alt="Certificate" style="display: block; width: 100%; max-width: 100%; height: auto; object-fit: contain; margin-top: 16px; border-radius: 8px;">
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            &copy; 2026 K.Izzah · Portfolio
+        </footer>
+
+    </main>
+</body>
+</html>

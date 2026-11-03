@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta
+        name="description"
+        content="A search system that helps users find medicines based on symptoms by comparing their query with medicine-use descriptions."
+    >
+
+    <title>Symptom-Based Medicine Search | Khumairoul Izzah</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="../project-detail.css">
+</head>
+
+<body>
+    <div class="shell">
+
+        <!-- Header -->
+        <header class="topbar">
+            <a class="brand" href="../index.html">
+                KHUMAIROUL IZZAH
+            </a>
+
+            <a class="back" href="../index.html#projects">
+                ← Back to selected projects
+            </a>
+        </header>
+
+        <main>
+
+            <!-- Hero Section -->
+            <section class="hero">
+                <div>
+                    <p class="kicker">
+                        Information Retrieval · Final Project
+                    </p>
+
+                    <h1>Symptom-Based Medicine Search</h1>
+
+                    <p class="summary">
+                        A search system that helps users find medicines
+                        based on symptoms by comparing their query with
+                        medicine-use descriptions.
+                    </p>
+
+                    <div class="pills">
+                        <span class="pill">
+                            Data Preprocessing, Search Algorithm,
+                            UI Development
+                        </span>
+
+                        <span class="pill">
+                            Academic Project
+                        </span>
+                    </div>
+                </div>
+
+                <div class="index">02</div>
+            </section>
+
+            <!-- Main Project Layout -->
+            <section class="layout">
+
+                <!-- Project Gallery -->
+                <div class="panel gallery">
+
+                    <div class="panel-heading">
+                        <div>
+                            <h2>Project Gallery</h2>
+
+                            <p>
+                                Browse screenshots and key parts of the
+                                application.
+                            </p>
+                        </div>
+
+                        <span class="count" id="count">01 / 03</span>
+                    </div>
+
+                    <div
+                        class="stage"
+                        id="stage"
+                        aria-live="polite"
+                    ></div>
+
+                    <div class="controls">
+                        <span class="caption" id="caption">
+                            Search interface
+                        </span>
+
+                        <div class="control-group">
+
+                            <button
+                                class="gallery-btn"
+                                id="prev"
+                                type="button"
+                                aria-label="Previous screenshot"
+                            >
+                                ←
+                            </button>
+
+                            <div class="dots" id="dots"></div>
+
+                            <button
+                                class="gallery-btn"
+                                id="next"
+                                type="button"
+                                aria-label="Next screenshot"
+                            >
+                                →
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="side">
+
+                    <!-- Project Overview -->
+                    <section class="panel content">
+                        <h2>Project Overview</h2>
+
+                        <p>
+                            The system processes symptom queries and
+                            medicine-use descriptions, then ranks relevant
+                            medicines using N-Gram representations and
+                            Cosine Similarity. The interface was built
+                            with Streamlit to present search results in
+                            a clear, accessible format.
+                        </p>
+                    </section>
+
+                    <!-- Tools and Technologies -->
+                    <section class="panel content">
+                        <h2>Tools &amp; Technologies</h2>
+
+                        <p>
+                            My current self-assessment of the skills used
+                            in this project.
+                        </p>
+
+                        <div
+                            class="tools"
+                            aria-label="Self-assessed skill levels"
+                        >
+
+                            <!-- Python -->
+                            <div class="skill">
+                                <div class="skill-top">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+
+                                <div
+                                    class="skill-track"
+                                    role="progressbar"
+                                    aria-label="Python proficiency"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                                    aria-valuenow="75"
+                                >
+                                    <span
+                                        class="skill-fill"
+                                        style="--level: 75%"
+                                    ></span>
+                                </div>
+                            </div>
+
+                            <!-- Streamlit -->
+                            <div class="skill">
+                                <div class="skill-top">
+                                    <span class="skill-name">Streamlit</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+
+                                <div
+                                    class="skill-track"
+                                    role="progressbar"
+                                    aria-label="Streamlit proficiency"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                                    aria-valuenow="65"
+                                >
+                                    <span
+                                        class="skill-fill"
+                                        style="--level: 80%"
+                                    ></span>
+                                </div>
+                            </div>
+
+                            <!-- N-Gram -->
+                            <div class="skill">
+                                <div class="skill-top">
+                                    <span class="skill-name">N-Gram</span>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+
+                                <div
+                                    class="skill-track"
+                                    role="progressbar"
+                                    aria-label="N-Gram proficiency"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                                    aria-valuenow="70"
+                                >
+                                    <span
+                                        class="skill-fill"
+                                        style="--level: 90%"
+                                    ></span>
+                                </div>
+                            </div>
+
+                            <!-- TF-IDF -->
+                            <div class="skill">
+
+                                <div class="skill-top">
+
+                                    <span class="skill-name">
+                                        TF-IDF
+                                    </span>
+
+                                    <span class="skill-percent">
+                                        85%
+                                    </span>
+
+                                </div>
+
+                                <div
+                                    class="skill-track"
+                                    role="progressbar"
+                                    aria-label="TF-IDF proficiency"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                                    aria-valuenow="70"
+                                >
+
+                                    <span
+                                        class="skill-fill"
+                                        style="--level: 85%"
+                                    ></span>
+
+                                </div>
+
+                            </div>
+
+                            <!-- Cosine Similarity -->
+                            <div class="skill">
+                                <div class="skill-top">
+                                    <span class="skill-name">
+                                        Cosine Similarity
+                                    </span>
+
+                                    <span class="skill-percent">85%</span>
+                                </div>
+
+                                <div
+                                    class="skill-track"
+                                    role="progressbar"
+                                    aria-label="Cosine Similarity proficiency"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                                    aria-valuenow="65"
+                                >
+                                    <span
+                                        class="skill-fill"
+                                        style="--level: 85%"
+                                    ></span>
+                                </div>
+                            </div>
+
+                            <!-- Pandas -->
+                            <div class="skill">
+                                <div class="skill-top">
+                                    <span class="skill-name">Pandas</span>
+                                    <span class="skill-percent">70%</span>
+                                </div>
+
+                                <div
+                                    class="skill-track"
+                                    role="progressbar"
+                                    aria-label="Pandas proficiency"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                                    aria-valuenow="70"
+                                >
+                                    <span
+                                        class="skill-fill"
+                                        style="--level: 70%"
+                                    ></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!-- My Contribution -->
+                    <section class="panel content">
+                        <h2>My Contribution</h2>
+
+                        <dl class="info">
+
+                            <div class="info-row">
+                                <dt>My role</dt>
+
+                                <dd>
+                                    Research & Methodology, Data Collection, Data Preprocessing, Algorithm Development, System Implementation, UI Development, Testing & Evaluation
+                                </dd>
+                            </div>
+
+                            <div class="info-row">
+                                <dt>Deliverable</dt>
+
+                                <dd>
+                                    Interactive medicine search application
+                                </dd>
+                            </div>
+
+                        </dl>
+                    </section>
+
+                </aside>
+            </section>
+
+            <!-- Learning Section -->
+            <section class="panel content learning">
+                <h2>What I Learned</h2>
+
+                <p>
+                    Text preprocessing, similarity-based ranking,
+                    evaluation with Precision@3, and presenting
+                    search results.
+                </p>
+            </section>
+
+            <!-- Next Project -->
+            <div class="bottom">
+                <p>Want to explore another project?</p>
+
+                <a class="next" href="sentiment-analysis.html">
+                    Sentiment Analysis →
+                </a>
+            </div>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <span>© 2026 K.Izzah</span>
+            <span>Project documentation</span>
+        </footer>
+
+    </div>
+
+    <!-- Project Gallery Script -->
+    <script>
+        const screenshots = [
+            'assets/medicine-search-1.png',
+            'assets/medicine-search-2.png',
+            'assets/medicine-search-3.png'
+        ];
+
+        const captions = [
+            'Search interface',
+            'Search bar',
+            'Search evaluation / top-3 medicine'
+        ];
+
+        let current = 0;
+
+        const stage = document.getElementById('stage');
+        const caption = document.getElementById('caption');
+        const count = document.getElementById('count');
+        const dots = document.getElementById('dots');
+
+        function render(i) {
+            current = (i + screenshots.length) % screenshots.length;
+
+            stage.innerHTML = '';
+
+            const img = document.createElement('img');
+
+            img.src = '../' + screenshots[current];
+            img.alt = captions[current];
+
+            img.onerror = () => {
+                stage.innerHTML = `
+                    <div class="placeholder">
+                        <div class="placeholder-icon">▧</div>
+
+                        <strong>Screenshot coming soon</strong>
+
+                        <span>
+                            Add
+                            <b>${screenshots[current].split('/').pop()}</b>
+                            to the
+                            <b>assets</b>
+                            folder to display your project screenshot here.
+                        </span>
+                    </div>
+                `;
+            };
+
+            stage.appendChild(img);
+
+            caption.textContent = captions[current];
+
+            count.textContent =
+                String(current + 1).padStart(2, '0') +
+                ' / ' +
+                String(screenshots.length).padStart(2, '0');
+
+            [...dots.children].forEach((dot, index) => {
+                dot.classList.toggle('active', index === current);
+            });
+        }
+
+        screenshots.forEach((_, i) => {
+            const dot = document.createElement('button');
+
+            dot.type = 'button';
+
+            dot.className = 'dot' + (i === 0 ? ' active' : '');
+
+            dot.setAttribute(
+                'aria-label',
+                'Show screenshot ' + (i + 1)
+            );
+
+            dot.addEventListener('click', () => render(i));
+
+            dots.appendChild(dot);
+        });
+
+        document
+            .getElementById('prev')
+            .addEventListener('click', () => render(current - 1));
+
+        document
+            .getElementById('next')
+            .addEventListener('click', () => render(current + 1));
+
+        render(0);
+    </script>
+
+</body>
+
+</html>

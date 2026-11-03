@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The personal portfolio of Izzah Khumairoul, Informatics Engineering graduate.">
+  <title>Portfolio | Izzah</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="ambient ambient-three"></div>
+  <div class="page-shell">
+    <header class="glass navbar">
+      <a class="brand" href="#home" aria-label="Izzah Khumairoul home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none">
+            <path d="M23 42C23 28 22 17 15 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M22 28C11 28 7 21 8 14C17 15 23 20 22 28Z" fill="currentColor" fill-opacity=".75"/>
+            <path d="M23 20C23 10 29 5 37 5C37 14 32 20 23 20Z" fill="currentColor" fill-opacity=".9"/>
+            <path d="M23 36C31 35 36 29 36 22C28 23 23 28 23 36Z" fill="currentColor" fill-opacity=".55"/>
+          </svg>
+        </span>
+        <span>Izzah</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#work-experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="glass hero-copy" id="about">
+          <p class="eyebrow">HELLO, I'M</p>
+          <h1>Khumairoul <br> Izzah</h1>
+          <p class="role">Informatics Engineering Graduate</p>
+          <p class="intro">I am an Informatics Engineering graduate interested in technology, data, and system development. I am eager to keep learning, grow professionally, and contribute to a collaborative work environment.</p>
+          <a class="button" href="#projects">Explore Projects <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="portrait-wrap" aria-label="Portrait area">
+          <div class="portrait-orbit orbit-one"></div>
+          <div class="portrait-orbit orbit-two"></div>
+          <div class="portrait-frame">
+            <!-- Replace profile.jpg with your own portrait file. -->
+            <img src="profile.jpg" alt="Portrait of Izzah Khumairoul" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+            <div class="portrait-fallback">
+              <span class="fallback-initials">IK</span>
+              <span class="fallback-note">YOUR PORTRAIT</span>
+            </div>
+          </div>
+          <span class="sparkle sparkle-one">✦</span>
+          <span class="sparkle sparkle-two">✧</span>
+          <svg class="leaf-decoration" viewBox="0 0 150 220" fill="none" aria-hidden="true">
+            <path d="M20 205C65 160 76 104 124 18" stroke="#B8DFFF" stroke-opacity=".7" stroke-width="1.2"/>
+            <path d="M57 147C25 145 16 123 22 104C47 111 60 127 57 147Z" fill="#B9DFFF" fill-opacity=".5" stroke="#D8ECFF" stroke-opacity=".55"/>
+            <path d="M77 108C76 81 93 62 115 59C117 83 102 102 77 108Z" fill="#B9DFFF" fill-opacity=".62" stroke="#D8ECFF" stroke-opacity=".55"/>
+            <path d="M92 76C68 67 63 48 72 30C92 43 99 59 92 76Z" fill="#B9DFFF" fill-opacity=".45" stroke="#D8ECFF" stroke-opacity=".55"/>
+            <path d="M38 174C34 151 45 135 64 128C70 150 58 167 38 174Z" fill="#B9DFFF" fill-opacity=".38" stroke="#D8ECFF" stroke-opacity=".55"/>
+            <path d="M106 48C105 26 119 12 138 10C139 30 126 45 106 48Z" fill="#B9DFFF" fill-opacity=".6" stroke="#D8ECFF" stroke-opacity=".55"/>
+          </svg>
+        </div>
+      </section>
+
+      <section class="glass projects-section" id="projects">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">PROJECTS & EXPERIENCE</p>
+            <h2>Selected Projects</h2>
+          </div>
+          <p class="section-description">A selection of academic projects and practical experience from my learning journey.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card glass">
+            <div class="project-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none"><rect x="5" y="5" width="22" height="16" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M2.5 26H29.5L27 22H5L2.5 26Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Cooperative Finance Website</h3>
+            <p>Developed a website to support transparent financial reporting and information management for a cooperative.</p>
+            <a class="detail-button" href="projects/cooperative-finance.html">Explore Project <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card glass">
+            <div class="project-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none"><circle cx="13.5" cy="13.5" r="8.5" stroke="currentColor" stroke-width="1.7"/><path d="M20 20L28 28" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Symptom-Based Medicine Search</h3>
+            <p>Built a medicine search system using N-Gram and Cosine Similarity to match symptoms with medicine uses.</p>
+            <a class="detail-button" href="projects/medicine-search.html">Explore Project <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="project-card glass">
+            <div class="project-icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none"><path d="M5 27V18H11V27H5Z M13 27V11H19V27H13Z M21 27V5H27V27H21Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Sentiment Analysis of Google Maps Reviews</h3>
+            <p>Analyzed Google Maps reviews of Gus Dur's Tomb using TF-IDF, SMOTE, and Naive Bayes to classify visitor sentiment.</p>
+            <a class="detail-button" href="projects/sentiment-analysis.html">Explore Project <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+
+
+      <section class="glass experience-section" id="work-experience">
+        <div class="experience-heading">
+          <div>
+            <p class="eyebrow">MY JOURNEY</p>
+            <h2>Work Experience</h2>
+          </div>
+          <p class="experience-description">Internship and work experience, with a dedicated page for role details and documentation.</p>
+        </div>
+
+        <div class="experience-grid">
+          <article class="experience-card">
+            <div class="project-icon experience-icon"><span>01</span></div>
+            <p class="experience-meta">WORK EXPERIENCE · WAREHOUSE ADMIN <span>2026</span></p>
+            <h3>TJ GROUP</h3>
+            <p>Managed warehouse data, recorded warehouse cash flow, and supported stock opname activities.</p>
+            <a class="detail-button experience-button" href="experience/tj-group.html">View Details <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="experience-card">
+            <div class="project-icon experience-icon"><span>02</span></div>
+            <p class="experience-meta">INTERNSHIP . WEB DEVELOPMENT<span>2024</span></p>
+            <h3>DINAS KOPERASI DAN USAHA MIKRO KAB. SIDOARJO</h3>
+            <p>Supported the development of a cooperative website and helped organize information and database features.</p>
+            <a class="detail-button experience-button" href="experience/dinkopum.html">View Details <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="experience-card">
+            <div class="project-icon experience-icon"><span>03</span></div>
+            <p class="experience-meta">INTERNSHIP . COMPUTER TECHNICIAN<span>2020</span></p>
+            <h3>SARANA INFORMASI COMPUTER</h3>
+            <p>Performed PC and laptop troubleshooting, hardware repairs, Windows installation, and LAN cable crimping to support computer and network operations.</p>
+            <a class="detail-button experience-button" href="experience/sic.html">View Details <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="experience-card">
+            <div class="project-icon experience-icon"><span>04</span></div>
+            <p class="experience-meta">INTERNSHIP · IT SUPPORT <span>2020</span></p>
+            <h3>PT. CHEIL JEDANG INDONESIA</h3>
+            <p>Performed network troubleshooting, assisted with network infrastructure installation, configured LAN connections, and installed Windows operating systems to support office IT operations.</p>
+            <a class="detail-button experience-button" href="experience/pt-cji.html">View Details <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <div class="scroll-hint"><span class="mouse-icon"><span></span></span><span>Scroll to discover more</span><span class="hint-line"></span></div>
+
+      <section class="glass contact-section" id="contact">
+        <div>
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Have an opportunity in mind?</h2>
+          <p class="contact-copy">I would be happy to connect, learn, and explore how I can contribute to your team.</p>
+        </div>
+        <a class="button" href="mailto:khumairoizzah@gmail.com">Get in Touch <span aria-hidden="true">→</span></a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© <span id="year">2026</span> K.Izzah</span>
+    </footer>
+  </div>
+</body>
+</html>
